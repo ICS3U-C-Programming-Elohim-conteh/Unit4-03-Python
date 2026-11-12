@@ -18,7 +18,7 @@ def main():
             print("Please enter a positive whole number.")
         else:
             for counter in range(user_number_as_int + 1):
-                power_of_two = counter**2
+                power_of_two = counter ** 2
                 print("{}^2 = {}".format(counter, power_of_two))
 
     except ValueError:
